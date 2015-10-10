@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Decimal to Binary</title>
+        <link rel="stylesheet" type="text/css" href="project.css">  <!--this is linking our css and js files-->
+        <script src="project.js"></script>
+    </head>
+    <body onload="setFocus()">                                      <!--this sets focus for the input box-->
+    <h1>The Decimal Converter</h1>
+    <p>Enter an integer between 0 and 255 to get started
+        <input type="text" id="numberInput" onkeydown="keyPress()" />
+        <button onclick="convertBinary()">Convert to Binary!</button>
+    </p>
+<br />
+<br />
+    <table>
+        <tr>
+            <th>Unsigned Binary</th>
+            <td id="unsignedBin"></td>               <!--these are the id's for where we want the completed conversion to go-->
+        </tr> 
+        <tr>
+            <th>One's Compliment Binary</th>
+            <td id="oneBin"></td>
+        </tr>
+        <tr>
+            <th>Two's Compliment Binary</th>
+            <td id="twoBin"></td>
+        </tr>
+        <tr>
+            <th>Octal Conversion</th>
+            <td id="octal"></td>
+        </tr>
+        <tr>
+            <th>Hexidecimal Conversion</th>
+            <td id="hex"></td>
+        </tr>
+    </table>
+    <footer>&copy; The Converting Gurus 2015</footer>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+body            {   background-color: #45668e;
+                    text-align: center;
+                    font-size: 12pt;
+                    font-family: "HelveticaNeue", "Helvetica Neue", "Arial Narrow", sans-serif;
+                    color: #cecece;
+}
+
+h1              {   font-family: "HelveticaNeue", "Helvetica Neue", "Arial Narrow", sans-serif;
+                    font-weight: lighter;
+}
+
+footer          {   font-size: 10pt;
+                    padding-top: 390px;
+                    font-weight: lighter;
+}
+
+table, th, td   {   background-color: #e5e5e5;
+                    text-align: left;
+                    width: 50%;
+                    margin-left: 25%;
+                    margin-right: 25%;
+                    line-height: 150%;
+                    border: .5px solid black;
+                    color: #000000;
+}
+
+#unsignedBin    {   text-align: center;
+}
+
+#oneBin         {   text-align: center;
+}
+
+#twoBin         {   text-align: center;
+}
+
+#hex            {   text-align: center;
+}
+
+#octal          {   text-align: center;
+}
